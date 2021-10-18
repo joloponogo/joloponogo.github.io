@@ -4,24 +4,39 @@
         <meta charset="utf-8">
         <title>Willys Geburtstag</title>
         <meta name="description" content="Foto Sharing Platform">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
 
         <header>
             <h1>Willys Geburtstag</h1>
+            <p>
+                Diese Webseite wurde erstellt, um meinem Grossvater den Geburtstag zu versüssen.
+                <br />
+                Lade ein Foto vom Geburtstag, von der Aussicht oder von dir selbst hoch, und schau dir die Fotos der anderen an.
+            </p>
         </header>
 
         <nav>
 
         </nav>
+
+        <section>
+            <h2>Ladet eure Fotos hoch</h2>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                Lade ein Foto hoch:
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Hochladen" name="submit">
+            </form>
+        </section>
         
         <footer>
             <p>Diese Webseite wurde von mir (Moritz Mani) gemacht.</p>
             <p>
-                Datenschutz: Die Fotos, die Sie hier hochladen werden lokal gespeichert.
+                <b>Datenschutz:</b> Die Fotos, die du hier hochlädst werden lokal gespeichert.
                 <br />
-                Ihre Fotos können von anderen angeschaut und heruntergeladen werden. Es ist nichts anderes, als wenn Sie auf Facebook ein Foto hochladen.
+                Deine Bilder können von anderen angeschaut und heruntergeladen werden. Es ist nichts anderes, als wenn du auf Facebook ein Foto hochlädst.
             </p>
         </footer>
 
